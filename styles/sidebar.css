@@ -4,13 +4,13 @@
   bottom: 0;
   top: 15px;
   background-color: clear;
-  width: 72px;
+  width: 20vh;
   z-index: 200;
   padding-top: 5px;
 }
 
 .sidebar-link {
-  height: 74px;
+  height: 20vh;
   display: flex;
   color: aliceblue;
   justify-content: center;
