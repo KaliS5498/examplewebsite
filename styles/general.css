@@ -16,12 +16,18 @@ body {
   background-color: rgb(54, 54, 60);
 }
 .main {
-  background-color: black; 
+  background-color: rgb(54, 54, 60);
+  /* background-image: url('radar.png'); */
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
   width: 100%; 
-  height: 100%;
+  height: 100vh;
+  position: relative
 }
 .main1 {
-  background-color: clear; 
+  background-color: black; 
   width: 100%; 
-  height: 100%;
+  height: 100vh;
+  position: relative
 }
