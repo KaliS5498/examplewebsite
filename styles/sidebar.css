@@ -27,6 +27,7 @@
 .sidebar-link img {
   height: 24px;
   margin-bottom: 4px;
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 
 .sidebar-link div {
