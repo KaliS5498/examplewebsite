@@ -1,5 +1,5 @@
 .header {
-  height: 55px;
+  height: 35px;
 
   display: flex;
   flex-direction: row;
@@ -11,10 +11,12 @@
   right: 0;
   z-index: 100;
 
-  background-color: clear;
+  background-color: rgb(25, 25, 35);
   border-bottom-width: 1px;
   border-bottom-style: none;
   border-bottom-color: rgb(228, 228, 228);
+  padding-top: 15px;
+  padding-right: 15px;
 }
 
 .left-section {
@@ -33,12 +35,14 @@
 }
 
 .middle-section {
-  flex: 1;
-  margin-left: 70px;
-  margin-right: 35px;
-  max-width: 500px;
+  /* flex: 1; */
+  margin-left: 100px;
+  /* margin-right: 100px; */
+  /* max-width: 1500px; */
+  min-width: 2000;
   display: flex;
-  align-items: center;
+ 
+  /* align-items: center; */
 }
 
 .search-bar {

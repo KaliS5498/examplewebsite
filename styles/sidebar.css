@@ -1,9 +1,24 @@
+.contact {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 80vh;
+  background-color: rgb(89, 153, 255);
+  /* width: 72px; */
+  width: 150px;
+  height: 33px;
+  z-index: 200;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
 .sidebar {
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 15px;
+  top: 45px;
   background-color: clear;
+  /* width: 72px; */
   width: 20vh;
   z-index: 200;
   padding-top: 5px;
@@ -21,14 +36,31 @@
 
 .sidebar-link:hover {
   background-color: rgb(235, 235, 235);
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
+.sidebar-link:hover img{
+  filter: invert(71%) sepia(68%) saturate(1387%) hue-rotate(355deg) brightness(98%) contrast(101%);
+
+  /* filter: invert(0%) sepia(100%) saturate(13%) hue-rotate(245deg) brightness(105%) contrast(103%); */
+}  
+
 .sidebar-link img {
-  height: 20vh;
+  height: 5vh;
   margin-bottom: 4px;
-  filter: invert(58%) sepia(100%) saturate(1063%) hue-rotate(358deg) brightness(99%) contrast(99%)
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(193deg) brightness(106%) contrast(101%);
+  /* filter: invert(71%) sepia(68%) saturate(1387%) hue-rotate(355deg) brightness(98%) contrast(101%); */
+  /* filter: invert(58%) sepia(100%) saturate(1063%) hue-rotate(358deg) brightness(99%) contrast(99%) */
+  /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
 }
+
+/* .sidebar-link img:hover {
+  height: 24px;
+  margin-bottom: 4px;
+  filter: invert(71%) sepia(68%) saturate(1387%) hue-rotate(355deg) brightness(98%) contrast(101%); */
+  /* filter: invert(58%) sepia(100%) saturate(1063%) hue-rotate(358deg) brightness(99%) contrast(99%) */
+  /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+/* } */
 
 .sidebar-link div {
   font-size: 10px;
